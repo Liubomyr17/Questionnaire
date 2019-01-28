@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Liubomyr</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header>
+  <h1 id="title">Survey Form</h1>
+  </header>
+  <div id="form-outer">
+    
+    <p id="description">Let us know how we can improve our hotel for you</p>
+    <form id="survey-form" method="insert" action="">
+      
+      <div id="label">
+        <label id="name-label" for="name">First Name:</label>
+      </div>
+      <input type="text" name="name" id="name" placeholder="Enter your first name" required>
+      
+      <div id="label">
+        <label id="surname-label" for="lastname">Last name:</label>
+      </div>
+      <input type="text" name="surname" id="surname" placeholder="Enter your last name">
+      
+      <div id="label">
+        <label id="email-label" for="email">Email:</label>
+      </div>
+      <input type="email" name="email" id="email" placeholder="Enter your email adress" required>
+      
+      <div id="label">
+        <label id="number-label" for="number">Phone number:</label>
+      </div>
+     <input type="email" name="email" id="email" min="1" max="200" placeholder="Enter your phone number" required>
+      
+      <div id="label">
+        <label id="dropdow-label" for="dropdown">What's your age?</label>
+      </div>
+      
+  <select type="dropdown" name="combobox" id="dropdown">
+        <option name="combobox" disabled value>Select an option</option>
+        <option name="combobox" value="baby">0-10</option>
+        <option name="combobox" value="teenage">11-17</option>
+        <option name="combobox" value="adult">18-65</option>
+        <option name="combobox" value="granny">66-80</option>
+        <option name="combobox" value="omg_still_alive">81 < </option>
+      </select>
+      
+ <div id="label">
+   <label for="hobby">Select what would you like the most in our hotel:</label>
+      </div>
+      <ul style="list-style: none;">
+        <li class="radio"><label><input name="hobby-buttons" value="1" type="radio" class="userAnswer">Service</label></li>
+        <li class="radio"><label><input name="hobby-buttons" value="2" type="radio" class="userAnswer">Nature</label></li>
+        <li class="radio"><label><input name="hobby-buttons" value="3" type="radio" class="userAnswer">Rooms</label>
+        </li>
+      </ul>
+      
+ <div id="label">
+   <label for="answer">Any Comments or Suggestions?</label>
+   </div>  
+      
+ <textarea rows="10" cols="45" name="text" placeholder="Enter your code here... "></textarea> 
+
+<div id="label">
+  <label for="rating">Which seasons do you like to visit us the most?</label>
+      </div>
+<ul id="rating" style="list-style: none;">
+  
+  <li class="checkbox"><label><input name="radio-rating" value="1" type="checkbox" class="userAnswer">Winter</label></li>
+  
+  <li class="checkbox"><label><input name="radio-rating" value="2" type="checkbox" class="userAnswer">Spring</label></li>
+  
+<li class="checkbox"><label><input name="radio-rating" value="3" type="checkbox" class="userAnswer">Summer</label></li>
+  
+<li class="checkbox"><label><input name="radio-rating" value="4" type="checkbox" class="userAnswer">Automn</label></li>
+</ul>
+
+      <button id="submit">Submit</button>
+    </form>
+    <footer>
+    </footer>
+  
+  
+
+</body>
+
+</html>
